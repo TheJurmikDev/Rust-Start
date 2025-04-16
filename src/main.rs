@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::fs::File;
 
 fn main() {
@@ -21,6 +22,13 @@ fn main() {
     ownership();
     mezera();
     error();
+    mezera();
+    vector();
+    mezera();
+    hashmap();
+    mezera();
+    modules();
+    mezera();
 }
 
 fn mezera() {
@@ -114,4 +122,31 @@ fn error() {
         Ok(_file) => println!("File opened successfuly"),
         Err(error) => println!("Error opening file: {}", error),
     }
+}
+
+fn vector() {
+    let mut numbers = Vec::new();
+
+    numbers.push(1);
+    numbers.push(2);
+    numbers.push(3);
+    println!("Numbers: {:?}", numbers);
+}
+
+fn hashmap() {
+    let mut scores = HashMap::new();
+    scores.insert(String::from("Blue"), 10);
+    scores.insert(String::from("Yellow"), 50);
+    println!("Scores: {:?}", scores);
+}
+
+mod math {
+    pub fn add(x: i32, y: i32) -> i32 {
+        x + y
+    }
+}
+
+fn modules() {
+    let result = math::add(1, 2);
+    println!("result: {}", result);
 }
