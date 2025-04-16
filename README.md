@@ -34,6 +34,15 @@ The project contains the following examples:
 7. **Error Handling (`error`)**  
    Example of handling file operations with `match` and error handling.
 
+8. **Vectors (`vector`)**  
+   Introduction to dynamic arrays in Rust (`Vec<T>`).
+
+9. **Hash Maps (`hashmap`)**  
+   Demonstration of key-value storage using `HashMap`.
+
+10. **Modules (`modules`)**  
+    Shows how to organize code into modules and use them in your program.
+
 ---
 
 ## 📥 Installation & Usage
