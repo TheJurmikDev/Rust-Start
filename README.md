@@ -1,8 +1,8 @@
 ## 🚀 About the Project
 
-**Rust Learning Project** is a basic example program written in the Rust programming language that demonstrates key concepts of this language. The project includes several functions that illustrate the use of variables, conditions, loops, structures, traits, and other essential elements of Rust.
+**Rust Learning Project** is a basic example program written in Rust. The project includes some functions that show the use of variables, conditions, loops, structures and other things of Rust.
 
-This project is ideal for beginners who want to learn the basics of Rust through practical examples.
+This project is ideal for beginners who want to learn the basics of Rust through examples.
 
 ---
 
@@ -11,25 +11,25 @@ This project is ideal for beginners who want to learn the basics of Rust through
 The project contains the following examples:
 
 1. **Basic Output (`hello`)**  
-   Demonstration of simple text output using `println!`.
+   Simple text output using `println!`.
 
 2. **Arithmetic (`math`)**  
-   Example of basic arithmetic operations with functions.
+   Example of basic operations with functions.
 
 3. **Conditions (`condition`)**  
    Use of `if-else` to check variable values.
 
 4. **Loops (`counter`, `whileloop`, `forloop`)**  
    - Infinite loop with `break`.
-   - `while` loop for conditional iteration.
-   - `for` loop for iterating over a range.
+   - `while` loop for conditional repeating.
+   - `for` loop for repeaing over a range.
 
 5. **Structures (`structure`, `rectanglee`)**  
    - Definition and usage of custom data structures (`struct`).
    - Implementation of methods for structs.
 
 6. **Ownership (`ownership`)**  
-   Demonstration of Rust's ownership model with strings.
+   Rust's ownership model with strings.
 
 7. **Error Handling (`error`)**  
    Example of handling file operations with `match` and error handling.
